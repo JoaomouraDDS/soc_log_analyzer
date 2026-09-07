@@ -1,0 +1,80 @@
+{
+    "generated_at": "2026-09-06T22:28:40.330325",
+    "total_lines_analyzed": 35,
+    "parsed_lines": 35,
+    "total_incidents": 8,
+    "incidents": [
+        {
+            "type": "SSH_BRUTE_FORCE",
+            "severity": "MEDIUM",
+            "source_ip": "203.0.113.5",
+            "description": "Detectadas 7 falhas de login consecutivas a partir do IP 203.0.113.5, visando usuário(s): invalid.",
+            "count": 7,
+            "first_seen": "2026-09-06T22:28:40.329586",
+            "last_seen": "2026-09-06T22:28:40.329663"
+        },
+        {
+            "type": "SSH_BRUTE_FORCE",
+            "severity": "HIGH",
+            "source_ip": "203.0.113.99",
+            "description": "Detectadas 9 falhas de login consecutivas a partir do IP 203.0.113.99, visando usuário(s): invalid.",
+            "count": 9,
+            "first_seen": "2026-09-06T22:28:40.329721",
+            "last_seen": "2026-09-06T22:28:40.329815"
+        },
+        {
+            "type": "PATH_TRAVERSAL_ATTEMPT",
+            "severity": "HIGH",
+            "source_ip": "203.0.113.5",
+            "description": "Atividade suspeita detectada a partir do IP 203.0.113.5 acessando padrão malicioso: ../",
+            "count": 1,
+            "first_seen": "2026-09-06T22:28:40.329850",
+            "last_seen": "2026-09-06T22:28:40.329850"
+        },
+        {
+            "type": "PATH_TRAVERSAL_ATTEMPT",
+            "severity": "HIGH",
+            "source_ip": "203.0.113.5",
+            "description": "Atividade suspeita detectada a partir do IP 203.0.113.5 acessando padrão malicioso: ../",
+            "count": 1,
+            "first_seen": "2026-09-06T22:28:40.329858",
+            "last_seen": "2026-09-06T22:28:40.329858"
+        },
+        {
+            "type": "SUSPICIOUS_URL_ACCESS",
+            "severity": "HIGH",
+            "source_ip": "192.0.2.150",
+            "description": "Atividade suspeita detectada a partir do IP 192.0.2.150 acessando padrão malicioso: UNION SELECT",
+            "count": 1,
+            "first_seen": "2026-09-06T22:28:40.329866",
+            "last_seen": "2026-09-06T22:28:40.329866"
+        },
+        {
+            "type": "SUSPICIOUS_URL_ACCESS",
+            "severity": "MEDIUM",
+            "source_ip": "192.0.2.150",
+            "description": "Atividade suspeita detectada a partir do IP 192.0.2.150 acessando padrão malicioso: /wp-admin/",
+            "count": 1,
+            "first_seen": "2026-09-06T22:28:40.329875",
+            "last_seen": "2026-09-06T22:28:40.329875"
+        },
+        {
+            "type": "SUSPICIOUS_URL_ACCESS",
+            "severity": "MEDIUM",
+            "source_ip": "203.0.113.200",
+            "description": "Atividade suspeita detectada a partir do IP 203.0.113.200 acessando padrão malicioso: /.env",
+            "count": 1,
+            "first_seen": "2026-09-06T22:28:40.329891",
+            "last_seen": "2026-09-06T22:28:40.329891"
+        },
+        {
+            "type": "SUSPICIOUS_URL_ACCESS",
+            "severity": "MEDIUM",
+            "source_ip": "203.0.113.200",
+            "description": "Atividade suspeita detectada a partir do IP 203.0.113.200 acessando padrão malicioso: /.git",
+            "count": 1,
+            "first_seen": "2026-09-06T22:28:40.329898",
+            "last_seen": "2026-09-06T22:28:40.329898"
+        }
+    ]
+}

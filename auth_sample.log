@@ -1,0 +1,35 @@
+Aug 30 14:20:01 srv01 sshd[1001]: Accepted password for deploy from 198.51.100.10 port 51000 ssh2
+Aug 30 14:21:05 srv01 sshd[1002]: Failed password for invalid user root from 203.0.113.5 port 51422 ssh2
+Aug 30 14:21:12 srv01 sshd[1003]: Failed password for invalid user root from 203.0.113.5 port 51423 ssh2
+Aug 30 14:21:20 srv01 sshd[1004]: Failed password for invalid user admin from 203.0.113.5 port 51424 ssh2
+Aug 30 14:21:29 srv01 sshd[1005]: Failed password for invalid user admin from 203.0.113.5 port 51425 ssh2
+Aug 30 14:21:37 srv01 sshd[1006]: Failed password for invalid user test from 203.0.113.5 port 51426 ssh2
+Aug 30 14:21:45 srv01 sshd[1007]: Failed password for invalid user ubuntu from 203.0.113.5 port 51427 ssh2
+Aug 30 14:22:01 srv01 sshd[1008]: Failed password for invalid user oracle from 203.0.113.5 port 51428 ssh2
+Aug 30 14:25:11 srv01 sshd[1009]: Accepted password for carla from 198.51.100.20 port 51500 ssh2
+Aug 30 14:30:02 srv01 sshd[1010]: Failed password for invalid user postgres from 192.0.2.77 port 44001 ssh2
+Aug 30 14:30:09 srv01 sshd[1011]: Failed password for invalid user postgres from 192.0.2.77 port 44002 ssh2
+Aug 30 14:31:40 srv01 sshd[1012]: Accepted password for joao from 198.51.100.30 port 51600 ssh2
+Aug 30 15:02:10 srv01 sshd[1013]: Failed password for invalid user git from 203.0.113.99 port 45010 ssh2
+Aug 30 15:02:18 srv01 sshd[1014]: Failed password for invalid user git from 203.0.113.99 port 45011 ssh2
+Aug 30 15:02:26 srv01 sshd[1015]: Failed password for invalid user git from 203.0.113.99 port 45012 ssh2
+Aug 30 15:02:34 srv01 sshd[1016]: Failed password for invalid user git from 203.0.113.99 port 45013 ssh2
+Aug 30 15:02:42 srv01 sshd[1017]: Failed password for invalid user git from 203.0.113.99 port 45014 ssh2
+Aug 30 15:02:50 srv01 sshd[1018]: Failed password for invalid user git from 203.0.113.99 port 45015 ssh2
+Aug 30 15:02:58 srv01 sshd[1019]: Failed password for invalid user git from 203.0.113.99 port 45016 ssh2
+Aug 30 15:03:06 srv01 sshd[1020]: Failed password for invalid user git from 203.0.113.99 port 45017 ssh2
+Aug 30 15:03:14 srv01 sshd[1021]: Failed password for invalid user git from 203.0.113.99 port 45018 ssh2
+Aug 30 15:10:00 srv01 sshd[1022]: Accepted password for maria from 198.51.100.40 port 51700 ssh2
+198.51.100.10 - - [30/Aug/2026:14:20:05 +0000] "GET /index.html HTTP/1.1" 200 1024
+198.51.100.10 - - [30/Aug/2026:14:20:15 +0000] "GET /about.html HTTP/1.1" 200 850
+203.0.113.5 - - [30/Aug/2026:14:22:30 +0000] "GET /../../../../etc/passwd HTTP/1.1" 404 512
+203.0.113.5 - - [30/Aug/2026:14:22:45 +0000] "GET /admin/../../etc/shadow HTTP/1.1" 404 512
+192.0.2.150 - - [30/Aug/2026:14:40:10 +0000] "GET /login.php?user=admin' UNION SELECT 1,2,3-- - HTTP/1.1" 500 340
+192.0.2.150 - - [30/Aug/2026:14:40:22 +0000] "GET /wp-admin/setup-config.php HTTP/1.1" 404 210
+192.0.2.150 - - [30/Aug/2026:14:40:35 +0000] "GET /phpmyadmin/index.php HTTP/1.1" 404 210
+203.0.113.200 - - [30/Aug/2026:14:50:00 +0000] "GET /.env HTTP/1.1" 404 198
+203.0.113.200 - - [30/Aug/2026:14:50:12 +0000] "GET /.git/config HTTP/1.1" 404 198
+198.51.100.20 - - [30/Aug/2026:14:55:00 +0000] "GET /products?id=42 HTTP/1.1" 200 3021
+198.51.100.20 - - [30/Aug/2026:14:55:20 +0000] "POST /cart/add HTTP/1.1" 200 512
+203.0.113.99 - - [30/Aug/2026:15:05:00 +0000] "GET /search?q=%3Cscript%3Ealert(1)%3C/script%3E HTTP/1.1" 200 900
+198.51.100.40 - - [30/Aug/2026:15:12:00 +0000] "GET /dashboard HTTP/1.1" 200 4210
