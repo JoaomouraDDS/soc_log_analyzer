@@ -65,8 +65,8 @@ sudo apt install pyton3-matplotlib
 ```
 ou basta executar o comando:
 
-```pip install -r requirements.txt
-```
+```pip install -r requirements.txt```
+
 ### 3. Executar a análise
 
 ```bash
