@@ -57,16 +57,16 @@ source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 ```
 
-Dependências
+### Dependências
 
-apt update
+```apt update
 sudo apt install python3-reportlab
 sudo apt install pyton3-matplotlib
-
+```
 ou basta executar o comando:
 
-pip install -r requirements.txt
-
+```pip install -r requirements.txt
+```
 ### 3. Executar a análise
 
 ```bash
