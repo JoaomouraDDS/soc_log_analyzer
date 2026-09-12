@@ -83,4 +83,4 @@ Esta ferramenta foi desenvolvida exclusivamente para fins educacionais, blue tea
 
 ## 👤 Autor
 
-Desenvolvido por **Joao Moura** (*Cafeecomcheckpoint*).
+Desenvolvido por **Joao Moura** 
